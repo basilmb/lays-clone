@@ -1,0 +1,471 @@
+body{
+    background: linear-gradient(to bottom, #fbb517 0%, #ffe600 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    line-height: 0;
+}
+.main{
+    width: 1349px;
+    height: 3880px;
+}
+.main .menu{
+    width: 1349px;
+    height: 112px;
+}
+.container{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.menu-top{
+    position: relative;
+    background: #fbb517;
+    padding: 20px 0 0;
+    z-index: 1
+}
+.main nav{
+    z-index: 1;
+    position: relative;
+    background: #ffe600;
+    height: 92px;
+    display: flex;
+}
+.main .h1 img{
+    display: block;
+    height: 92px;
+    width: 92px;
+    padding: 0 20px;
+}
+.main .options{
+    display: flex;
+    align-items: center;
+}
+.main nav ul{
+    display: flex;
+}
+.main nav ul li{
+    transition: all .5s ease;
+    margin: 0 5px;
+    position: relative;
+    list-style: none;
+}
+.main nav ul li:hover{
+    transform: scale(1.05);
+}
+.main nav ul li a{
+    display: block;
+    padding: 8px 15px;
+    font-size: 19px;
+    line-height: 2;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-weight: bold;
+}
+.main nav ul li a:hover{
+    color: white;
+}
+.main nav ul li a#es{
+    border-radius: 0;
+    border: #000 1px solid;
+    text-transform: uppercase;
+    padding: 7px 5px 3px;
+    margin-left: 5px;
+    line-height: 2;
+}
+.main .search{
+    display: flex;
+}
+.main .search i{
+    display: flex;
+    padding: 20px 20px;
+    line-height: 2;
+}
+.main .content{
+    position: relative;
+    max-width: 1170px;
+    height: 425px;
+    margin: 0 auto;
+}
+.main .content img{
+    width: 100%;
+    max-height: 425px;
+    margin-top: 20px;
+}
+.main .products{
+    position: relative;
+    max-width: 1170px;
+    height: 771px;
+    margin: 0 auto;
+    background-color: #ee3124;
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-products.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-products2.jpg?1");
+    margin-top: 40px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.main .products .box{
+    display: flex;
+    justify-content: center;
+}
+.main .products h2{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #fff;
+    padding: 35px 80px;
+}
+.main .products a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    max-width: 336px;
+    height: 516px;
+}
+.main .products a .img-container{
+    position: relative;
+    max-width: 336px;
+    height: 336px;
+}
+.main .products a .img-container img{
+    transition: all .3s ease;
+}
+.main .products a .title{
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+.main .products a .title h3{
+    font-size: 35px;
+    line-height: 40px;
+    max-height: 80px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main .products a .parent{
+    padding: 15px 15px;
+}
+.main .products a .parent .main{
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 2.5;
+    text-decoration: none;
+    text-align: center;
+    background: #da291c;
+    position: relative;
+    max-width: 126.45px;
+    height: 40px;
+    cursor: pointer;
+}
+.main .products a .parent .main:hover{
+    color: #000;
+    background: #ffe600;
+}
+.main .products a:hover{
+    transform: scale(1.05);
+}
+.main .Recipes{
+    position: relative;
+    max-width: 1170px;
+    height: 726px;
+    margin: 0 auto;
+    background-color: #f6be07;
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes2.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-recipes3.jpg?1");
+    margin-top: 40px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.main .Recipes .box{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.main .Recipes h2{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #fff;
+    padding: 35px 80px;
+}
+.main .Recipes a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    max-width: 314px;
+    height: 456px;
+}
+.main .Recipes a .img-container{
+    position: relative;
+    max-width: 314px;
+    height: 280px;
+}
+.main .Recipes a .img-container img{
+    transition: all .3s ease;
+}
+.main .Recipes a .title{
+    padding: 0 30px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.main .Recipes a .title h3{
+    font-size: 23px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000;
+}
+.main .Recipes a .parent{
+    padding: 15px 25px;
+}
+.main .Recipes a .parent .main{
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 2.5;
+    text-decoration: none;
+    text-align: center;
+    background: #da291c;
+    position: relative;
+    max-width: 154.4px;
+    height: 40px;
+    cursor: pointer;
+}
+.main .Recipes a .parent .main:hover{
+    color: #000;
+    background: #00aae7;
+}
+.main .Recipes a .img-container img:hover{
+    transform: scale(1.05);
+}
+.main .Videos{
+    position: relative;
+    max-width: 1170px;
+    height: 638px;
+    margin: 0 auto;
+    background-color: #00aa4f;
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-videos2.jpg?1");
+    margin-top: 40px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.main .Videos h2{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #fff;
+    padding: 35px 80px;
+}
+.main .Videos a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    max-width: 1170px;
+    height: 383px;
+}
+.main .Videos .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 130px;
+}
+.main .Videos a iframe{
+    margin-left: 80px;
+}
+.main .Videos a .title{
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+.main .Videos a .title h3{
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+.main .Videos a .parent{
+    padding: 10px 15px;
+    text-align: center;
+}
+.main .Videos a .parent .main{
+    transition: background-color .3s ease, color .3s ease;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 2.5;
+    text-decoration: none;
+    text-align: center;
+    background: #da291c;
+    position: relative;
+    max-width: 126.45px;
+    height: 40px;
+    cursor: pointer;
+}
+.main .Videos a .parent .main:hover{
+    color: #000;
+    background: #ffe600;
+}
+.main .social{
+    position: relative;
+    max-width: 1170px;
+    height: 575px;
+    margin: 0 auto;
+    background-color: #00aae7;
+    background-image: url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-social.jpg?1"),url("https://www.lays.com/sites/lays.com/themes/lays/img/bg-social2.jpg?1");
+    margin-top: 40px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.main .social h2{
+    font-size: 95px;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #fff;
+    padding: 35px 80px;
+}
+.main .social .d1{
+    width: 1020px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+}
+.main .social .big{
+    width: 340px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .social .big .one img{
+    width: 330px;
+    height: 320px;
+    object-fit: cover;
+    background-position: center;
+}
+.main .social .big .top .two{
+    width: 170px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .social .big .top .two img{
+    width: 160px;
+    height: 155px;
+    object-fit: cover;
+    background-position: center;
+}
+.main .social .big .base .two{
+    width: 170px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .social .big .base .two img{
+    width: 160px;
+    height: 155px;
+    object-fit: cover;
+    background-position: center;
+}
+.main .footer{
+    position: relative;
+    max-width: 1170px;
+    height: 174px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.main .footer a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    max-width: 1170px;
+    height: 174px;
+}
+.main .footer .icons{
+    position: absolute;
+    width: 48.95%;
+    height: 100%;
+    right: 11.15%;
+    top: -15px;
+}
+.main .footer .icons ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main .footer .icons ul li{
+    list-style: none;
+}
+.main .footer .icons ul li{
+    width: 143.167px;
+    height: 85.9px;
+}
+.main .footer .icons ul li a img{
+    width: 85.9px;
+    height: 85.9px;
+}
+.main .container{
+    position: relative;
+    max-width: 1170px;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main .container ul{
+    display: flex;
+    margin-left:  100px;
+}
+.main .container ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.main .container ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    position: relative;
+    line-height: 1.2;
+    display: block;
+}
+.main .fologo{
+    display: flex;
+    justify-content: center;
+}
+.main p{
+    color: #000;
+    font-size: 12px;
+    margin: 20px 0;
+    text-align: center;
+}
+.main .fologo img{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+
